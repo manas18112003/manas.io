@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,700&display=swap" rel="stylesheet">
+    <style>
+        body{
+            background-image: linear-gradient(to right, green , blue,yellow,red);
+        }
+        .loginform{
+            display: flex;
+          
+            left: 50%;
+            position: relative;
+            top:-50%;
+            width: 500px;
+            height: 500px;
+            border:none;
+            box-sizing: border-box;
+            left: 50%;
+            top: 50%;
+            position: absolute;
+            top: 20%;
+            left: 37%;
+            box-shadow: 5px 10px 25px black;
+            padding: 50px;
+            
+        }
+        h2{
+            font-family: 'Montserrat', sans-serif;
+            position: relative;
+            left: 70%;
+            justify-content: center;
+            display: flex;
+
+        }
+        h4.passwordI{
+            font-family: 'Montserrat', sans-serif;
+            position: relative;
+            left: 90%;
+            top: 5%;
+            text-shadow: 5px 10px 100px blue;
+
+        }
+        h4.user{
+
+            font-family: 'Montserrat', sans-serif;
+            position: relative;
+            left: 100%;
+            top: 4%;
+
+        }
+        input{
+            border: none;
+            border-bottom: solid black 2px;
+            position: relative;
+            left: 75%;
+            background-color: black;
+            color: whitesmoke;
+
+        }
+        ::placeholder{
+            text-align: center;
+            padding: 10px;
+            color: whitesmoke;
+            font-family: 'Montserrat', sans-serif;
+            
+        }
+            
+        .submitB{
+            font-family: 'Montserrat', sans-serif;
+            position: absolute;
+            top: 60%;
+            left: 44%;
+           background-color: black;
+           color: whitesmoke;
+
+
+            
+        }
+        
+
+        
+    </style>
+</head>
+<body>
+    <div class="loginform">
+    <form>
+    <h2 > LOGIN</h2>
+    <h4 class="user"> USER ID</h4>
+    <input type="text" placeholder="ENTER USER ID">
+    <h4 class="passwordI">  PASSWORD</h4>
+    <input type="password" placeholder="ENTER PASSWORD">
+    <button type="submit" type="reset" class="submitB">SUBMIT</button>
+    </form>
+    </div>
+</body>
+</html>
